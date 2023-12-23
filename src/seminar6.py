@@ -19,7 +19,7 @@ BUCKET_NAME = 'neuralnets2023'
 YOUR_GIT_USER = 'Di99di'
 image_size = (180, 180)
 batch_size = 64
-
+###
 def download_data():
     """Pipeline: download and extract data"""
     if not os.path.exists(PATH_TO_DATA_ZIP):
