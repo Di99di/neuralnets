@@ -173,7 +173,7 @@ def upload():
     )
 
     client.upload_file(zip_model_path, BUCKET_NAME, f'{YOUR_GIT_USER}/model_6.zip')
-
+    print('Upload succeed.')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
